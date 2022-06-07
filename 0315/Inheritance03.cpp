@@ -1,0 +1,53 @@
+#include<iostream>
+#include<string>
+
+class Person
+{
+public:
+	Person():Person(""){}
+	Person(std::string n):name(n){}
+	std::string GetName()
+	{
+		return name;
+	}
+
+protected:
+	std::string degree;
+
+private:
+	std::string name;
+};
+
+class Student :private Person
+{
+public:
+	Student(std::string n):Person(n),total(0){}
+	int GetTaotal()
+	{
+		return total;
+	}
+	void AddTotal(int i)
+	{
+		total += i;
+	}
+	void SetDegree(std::string d)
+	{
+		degree=d;
+	}
+	std::string GetDegree()
+	{
+		return degree;
+	}
+
+private:
+	int total;
+};
+
+int main()
+{
+	Student s1("홍길동");
+	s1.SetDegree("초등학교 졸업");
+	s1.AddTotal(95);
+	std::cout << "이름 : " << s1.GetName();
+	std::cout << ", 학력 : " << s1.GetDegree() << ", 졸업점수 : " << s1.GetTaotal() << std::endl;
+}
