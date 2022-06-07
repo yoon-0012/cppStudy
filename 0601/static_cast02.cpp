@@ -25,3 +25,5 @@ int main()
 	float one = static_cast<float>(today);
 	std::cout << DayName(today) << "는 " << one + 1 << "번째 요일이다." << std::endl;
 }
+
+//22.06.08
