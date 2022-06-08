@@ -1,0 +1,427 @@
+
+# 생성: https://www.toptal.com/developers/gitignore/api/windows,visualstudio
+# https://www.toptal.com/developers/gitignore?templates=windows,visualstudio에서 편집
+
+### 윈도우 ###
+# Windows 썸네일 캐시 파일
+Thumbs.db
+Thumbs.db:암호화 가능
+ehthumbs.db
+ehthumbs_vista.db
+
+# 덤프 파일
+*.스택 덤프
+
+# 폴더 설정 파일
+[Dd]esktop.ini
+
+# 파일 공유에 사용되는 휴지통
+$RECYCLE.BIN/
+
+# 윈도우 인스톨러 파일
+*.택시
+*.msi
+*.msix
+*.msm
+*.msp
+
+# 윈도우 단축키
+*.lnk
+
+### 비주얼 스튜디오 ###
+## Visual Studio 임시 파일을 무시하고 결과를 빌드하고
+## 인기 있는 Visual Studio 추가 기능으로 생성된 파일입니다.
+##
+## https://github.com/github/gitignore/blob/main/VisualStudio.gitignore에서 최신 정보 받기
+
+# 사용자별 파일
+*.rsuser
+*.수오
+*.사용자
+*.useroscache
+*.sln.docstates
+
+# 사용자별 파일(MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# 모노 자동 생성 파일
+mono_crash.*
+
+# 빌드 결과
+[Dd]버그/
+[Dd]ebugPublic/
+[Rr]해제/
+[Rr]릴리스/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+빌딩/
+[Bb]인/
+[우]비제이/
+로그/
+[Ll]로그/
+
+# Visual Studio 2015/2017 캐시/옵션 디렉토리
+.vs/
+# wwwroot에 프로젝트의 정적 파일을 만드는 작업이 있는 경우 주석 처리를 제거합니다.
+#www루트/
+
+# Visual Studio 2017 자동 생성 파일
+생성된\ 파일/
+
+# MSTest 테스트 결과
+[Tt]est[Rr]결과*/
+[Bb]빌드[Ll]로그*
+
+# 엔유니트
+*.VisualState.xml
+테스트 결과.xml
+nunit-*.xml
+
+# ATL 프로젝트의 빌드 결과
+[Dd]ebugPS/
+[Rr]릴리스PS/
+dlldata.c
+
+# 벤치마크 결과
+BenchmarkDotNet.Artifacts/
+
+# .NET 코어
+project.lock.json
+project.fragment.lock.json
+유물/
+
+# ASP.NET 스캐폴딩
+스캐폴딩ReadMe.txt
+
+# 스타일캅
+StyleCopReport.xml
+
+# Visual Studio에서 빌드한 파일
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.메타
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.통나무
+*.tlog
+*.vspscc
+*.vssscc
+.빌드
+*.pidb
+*.svclog
+*.scc
+
+# Chutzpah 테스트 파일
+_추츠파*
+
+# Visual C++ 캐시 파일
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.캐시파일
+*.VC.db
+*.VC.VC.opendb
+
+# 비주얼 스튜디오 프로파일러
+*.psess
+*.vsp
+*.vspx
+*.수액
+
+# Visual Studio 추적 파일
+*.e2e
+
+# TFS 2012 로컬 작업 공간
+$tf/
+
+# 안내 자동화 툴킷
+*.gp상태
+
+# ReSharper는 .NET 코딩 추가 기능입니다.
+_ReSharper*/
+*.[Rr]e[Ss]하퍼
+*.DotSettings.user
+
+# TeamCity는 빌드 애드인입니다.
+_팀시티*
+
+# DotCover는 코드 커버리지 도구입니다
+*.dot커버
+
+# AxoCover는 코드 커버리지 도구입니다.
+.axo커버/*
+!.axoCover/settings.json
+
+# Coverlet은 무료 크로스 플랫폼 코드 커버리지 도구입니다.
+적용 범위*.json
+적용 범위*.xml
+적용 범위*.info
+
+# Visual Studio 코드 적용 결과
+*.적용 범위
+*.coveragexml
+
+# 엔크런치
+_엔크런치_*
+.*크런치*.local.xml
+nCrunchTemp_*
+
+# 마이티무스
+*.mm.*
+AutoTest.Net/
+
+# 웹 워크벤치(sass)
+.sass-캐시/
+
+# Installshield 출력 폴더
+[이]익스프레스/
+
+# DocProject는 문서 생성기 추가 기능입니다.
+DocProject/buildhelp/
+DocProject/도움말/*.HxT
+DocProject/Help/*.HxC
+DocProject/도움말/*.hhc
+DocProject/도움말/*.hhk
+DocProject/도움말/*.hhp
+DocProject/도움말/HTML2
+DocProject/도움말/html
+
+# 클릭 한 번 디렉토리
+출판하다/
+
+# 웹 출력 게시
+*.[Pp]ublish.xml
+*.azurePubxml
+# 참고: 웹 배포 설정을 확인하려면 다음 줄을 주석 처리합니다.
+# 그러나 데이터베이스 연결 문자열(잠재적 암호 포함)은 암호화되지 않습니다.
+*.pubxml
+*.publishproj
+
+# Microsoft Azure 웹 앱 게시 설정. 원하는 경우 다음 줄에 주석을 추가하십시오.
+# Azure Web App 게시 설정을 확인하지만 중요한 정보가 포함되어 있습니다.
+# 이 스크립트에서 암호화되지 않습니다.
+PublishScripts/
+
+# NuGet 패키지
+*.nupkg
+# NuGet 기호 패키지
+*.snupkg
+# 패키지 복원으로 인해 패키지 폴더를 무시할 수 있습니다.
+**/[Pp]패키지/*
+# MSBuild 대상으로 사용되는 build/는 제외합니다.
+!**/[Pp]패키지/빌드/
+# 필요한 경우 주석 처리를 제거하지만 일반적으로 필요할 때 재생성됩니다.
+#!**/[Pp]packages/repositories.config
+# NuGet v3의 project.json 파일은 무시할 수 있는 파일을 더 많이 생성합니다.
+*.nuget.props
+*.nuget.targets
+
+# 마이크로소프트 애저 빌드 출력
+csx/
+*.build.csdef
+
+# 마이크로소프트 애저 에뮬레이터
+ecf/
+rcf/
+
+# Windows 스토어 앱 패키지 디렉터리 및 파일
+앱 패키지/
+번들 아티팩트/
+패키지.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+*.appx번들
+*.appxupload
+
+# Visual Studio 캐시 파일
+# .cache로 끝나는 파일은 무시할 수 있습니다.
+*.[참조]아프다
+# 하지만 .cache로 끝나는 디렉토리를 추적합니다.
+!?*.[참조]아프다/
+
+# 기타
+클라이언트 빈/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+
+# 강력한 이름의 파일을 포함하면 보안 위험이 발생할 수 있습니다.
+# (https://github.com/github/gitignore/pull/2483#issue-259490424)
+#*.snk
+
+# 여러 워크플로가 있으므로 bower_components를 무시하려면 다음 줄의 주석 처리를 제거합니다.
+# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
+#bower_components/
+
+# RIA/실버라이트 프로젝트
+생성된_코드/
+
+# 오래된 프로젝트 파일 변환에서 백업 및 보고서 파일
+# 최신 Visual Studio 버전으로. 백업 파일이 필요하지 않으며,
+# git이 있기 때문에 ;-)
+_업그레이드보고서_파일/
+지원*/
+업그레이드로그*.XML
+업그레이드로그*.htm
+서비스패브릭백업/
+*.rptproj.bak
+
+# SQL 서버 파일
+*.mdf
+*.ldf
+*.ndf
+
+# 비즈니스 인텔리전스 프로젝트
+*.rdl.data
+*.bim.레이아웃
+*.bim_*.설정
+*.rptproj.rsuser
+*- [Bb]backup.rdl
+*- [Bb]백업([0-9]).rdl
+*- [Bb]백업([0-9][0-9]).rdl
+
+# 마이크로소프트 가짜
+가짜 조립품/
+
+# GhostDoc 플러그인 설정 파일
+*.GhostDoc.xml
+
+# Visual Studio용 Node.js 도구
+.ntvs_analysis.dat
+node_modules/
+
+# Visual Studio 6 빌드 로그
+*.plg
+
+# Visual Studio 6 작업 영역 옵션 파일
+*.고르다
+
+# Visual Studio 6 자동 생성 작업 공간 파일(열린 파일 등 포함)
+*.vbw
+
+# Visual Studio 6 자동 생성 프로젝트 파일(열린 파일 등 포함)
+*.vbp
+
+# Visual Studio 6 작업 공간 및 프로젝트 파일(프로젝트에 포함할 파일이 포함된 작업 프로젝트 파일)
+*.dsw
+*.dsp
+
+# Visual Studio 6 기술 파일
+
+# Visual Studio LightSwitch 빌드 출력
+**/*.HTMLClient/GeneratedArtifacts
+**/*.DesktopClient/GeneratedArtifacts
+**/*.DesktopClient/ModelManifest.xml
+**/*.Server/GeneratedArtifacts
+**/*.서버/모델매니페스트.xml
+_Pvt_확장
+
+# 패킷 종속성 관리자
+.패킷/패킷.exe
+패킷 파일/
+
+# FAKE - F# 메이크
+.가짜/
+
+# CodeRush 개인 설정
+.cr/개인
+
+# PTVS(Visual Studio용 Python 도구)
+__파이캐시__/
+*.pyc
+
+# 케이크 - 사용 중이라면 주석 해제
+# 도구/**
+# !tools/packages.config
+
+# 탭스튜디오
+*.tss
+
+# Telerik의 JustMock 설정 파일
+*.jmconfig
+
+# BizTalk 빌드 출력
+*.btp.cs
+*.btm.cs
+*.odx.cs
+*.xsd.cs
+
+# OpenCover UI 분석 결과
+오픈커버/
+
+# Azure Stream Analytics 로컬 실행 출력
+ASALocalRun/
+
+# MSBuild 바이너리 및 구조화된 로그
+*.binlog
+
+# NVidia Nsight GPU 디버거 구성 파일
+*.nvuser
+
+# MFractors(Xamarin 생산성 도구) 작업 폴더
+.mfractor/
+
+# Visual Studio용 로컬 히스토리
+.localhistory/
+
+# Visual Studio 기록(VSHistory) 파일
+.vshistory/
+
+# BeatPulse 상태 확인 임시 데이터베이스
+healthchecksdb
+
+# Visual Studio 2017의 패키지 참조 변환 도구용 백업 폴더
+마이그레이션백업/
+
+# Ionide(크로스 플랫폼 F# VS Code 도구) 작업 폴더
+.이오나이드/
+
+# Fody - 자동 생성된 XML 스키마
+FodyWeavers.xsd
+
+# 여러 도구로 작업하는 사람들을 위한 VS Code 파일
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-작업 공간
+
+# Visual Studio Code의 로컬 기록
+.역사/
+
+# 빌드 출력의 Windows Installer 파일
+
+# JetBrains 라이더
+*.sln.iml
+
+### VisualStudio 패치 ###
+# Visual Studio에서 빌드한 추가 파일
+
+# https://www.toptal.com/developers/gitignore/api/windows,visualstudio의 끝
