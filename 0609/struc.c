@@ -6,6 +6,7 @@ struct friends
 	char hobby[20];
 	char location[30];
 };
+void printList(struct friends*);
 
 int main(void)
 {
@@ -16,6 +17,12 @@ int main(void)
 	{"홍명진","010-8564-8881","dancing","정왕4동"},
 	{"이재윤","010-7777-0000","walking","정왕5동"}, };
 
+	printList(bestFriend);
+
+	return 0;
+}
+void printList(struct friends* bestFriend)
+{
 	for (int i = 0; i < 5; ++i)
 	{
 		printf("이름: %s\n", bestFriend[i].name);
@@ -23,6 +30,4 @@ int main(void)
 		printf("취미: %s\n", bestFriend[i].hobby);
 		printf("주소: %s\n\n\n", bestFriend[i].location);
 	}
-
-	return 0;
 }

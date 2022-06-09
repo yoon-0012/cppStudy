@@ -458,3 +458,4 @@ FodyWeavers.xsd
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,visualstudio,c++
 .vs/cpp/v17/.suo
+.vs/cpp/v17/.suo
