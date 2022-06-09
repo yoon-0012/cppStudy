@@ -1,0 +1,28 @@
+#include<stdio.h>
+struct friends
+{
+	char name[20];
+	char phNum[20];
+	char hobby[20];
+	char location[30];
+};
+
+int main(void)
+{
+	struct friends bestFriend[5] =
+	{ {"¿±¿∫¡ˆ","010-8020-9271","tennis","¡§ø’1µø"},
+	{"±ËπŒ¡ˆ","010-1234-8785","soccer","¡§ø’2µø"},
+	{"¿Ãµµ¿±","010-4444-1111","cooking","¡§ø’3µø"},
+	{"»´∏Ì¡¯","010-8564-8881","dancing","¡§ø’4µø"},
+	{"¿Ã¿Á¿±","010-7777-0000","walking","¡§ø’5µø"}, };
+
+	for (int i = 0; i < 5; ++i)
+	{
+		printf("¿Ã∏ß: %s\n", bestFriend[i].name);
+		printf("ø¨∂Ù√≥: %s\n", bestFriend[i].phNum);
+		printf("√ÎπÃ: %s\n", bestFriend[i].hobby);
+		printf("¡÷º“: %s\n\n\n", bestFriend[i].location);
+	}
+
+	return 0;
+}
