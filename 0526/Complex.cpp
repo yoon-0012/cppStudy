@@ -16,7 +16,7 @@ void CComplex::print()
 	cout << x << " + " << y << "i" << endl;
 }
 
-//22.05.24
+
 void CComplex::operator += (CComplex& p)
 {
 	x = x + p.x;
@@ -45,7 +45,6 @@ void CComplex::operator /= (CComplex& p)
 	//ºÐ¸ð´Â px^ + py^
 }
 
-//22.05.26
 CComplex CComplex::operator +(CComplex& p)
 {
 	int tmx, tmy;
